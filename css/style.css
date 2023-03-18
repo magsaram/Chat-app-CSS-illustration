@@ -240,3 +240,42 @@ footer a {
   color: #a39da9c5;
   text-decoration: none;
 }
+@media (min-width: 1024px) {
+  body {
+    max-height: 100%;
+    margin: 0 auto;
+  }
+  .background-dark {
+    top: -318px;
+    left: -90px;
+  }
+  .background-light {
+    bottom: -318px;
+    right: -90px;
+  }
+  .main {
+    margin-left: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 817px;
+  }
+  .phone {
+    box-sizing: border-box;
+    position: relative;
+    margin: 148px auto;
+  }
+  .main-text {
+    width: 445px;
+    margin: 0 0 0 125px;
+    text-align: left;
+  }
+  footer {
+    text-align: center;
+    color: #a39da9c5;
+  }
+  footer a {
+    color: #a39da9c5;
+    text-decoration: none;
+  }
+}
